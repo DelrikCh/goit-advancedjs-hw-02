@@ -11,7 +11,6 @@ const minutesElement = document.querySelector('span[data-minutes]');
 const secondsElement = document.querySelector('span[data-seconds]');
 
 let userSelectedDate = null;
-let countdownInterval = null;
 button.disabled = true;
 
 const addLeadingZero = num => num.toString().padStart(2, '0');
